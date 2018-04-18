@@ -6,7 +6,7 @@ Setup steps:
 - Edit Xml
 - Write java code, to start scanner
 ```sh
-	zXingScannerView =new ZXingScannerView(getApplicationContext());
+    zXingScannerView =new ZXingScannerView(getApplicationContext());
     setContentView(zXingScannerView);
     zXingScannerView.setResultHandler(this);
     zXingScannerView.startCamera();
