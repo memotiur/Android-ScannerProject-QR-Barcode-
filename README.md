@@ -1,13 +1,15 @@
+# Qr/ Barcode Reader
 This tutorial is made using Zxing library.
 Setup steps:
-1. Add dependency
-2. Add camera permission
-3. Edit Xml
-4. Write java code, to start scanner
-
+- Add dependency
+- Add camera permission
+- Edit Xml
+- Write java code, to start scanner
+```sh
 	zXingScannerView =new ZXingScannerView(getApplicationContext());
     setContentView(zXingScannerView);
     zXingScannerView.setResultHandler(this);
     zXingScannerView.startCamera();
+```
 	
-5. Get Result. Done
+- Get Result. Done
